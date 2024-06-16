@@ -1,0 +1,375 @@
+
+
+
+
+
+
+/* ====== | colors | ======= */
+
+/* === default - Moonlight === */
+.theme-dark, .theme-light {
+    color-scheme: dark;
+    --accent-h: 0 !important;
+    --accent-s: 100% !important;
+    --accent-l: 100% !important;
+    --text-on-accent: var(--background-primary) !important;
+    --font-serif: 'FiraCode Nerd Font';
+    --font-cursive: 'FiraCode Nerd Font';
+    --font-sans: 'FiraCode Nerd Font';
+    --inline-title-font: 'FiraCode Nerd Font', var(--font-text);
+    --heading-font: var(--font-cursive);
+    --font-text-theme: var(--font-serif), 'Source Han Serif', 'Noto Serif JP';
+    --font-interface-theme: var(--font-sans);
+    --font-headings: var(--font-cursive);
+    --highlight-mix-blend-mode: lighten;
+    --background-modifier-border: #3b3f56;
+    --mono-rgb-0: 0, 0, 0;
+    --mono-rgb-100: 255, 255, 255;
+    --accent-h: 41 !important;
+    --accent-s: 100% !important;
+    --accent-l: 100% !important;
+    --color-red-rgb: 228, 111, 125;
+    --color-red: #e46f7d;
+    --color-green-rgb: 165, 209, 140;
+    --color-green: #a5d18c;
+    --color-orange-rgb: 251, 179, 108;
+    --color-orange: #fbb36c;
+    --color-yellow-rgb: 255, 222, 115;
+    --color-yellow: #ffde73;
+    --color-cyan-rgb: 111, 210, 194;
+    --color-cyan: #6fd2c2;
+    --color-blue-rgb: 86, 174, 214;
+    --color-blue: #56aed6;
+    --color-purple-rgb: 181, 132, 199;
+    --color-purple: #b584c7;
+    --color-pink-rgb: 255, 148, 200;
+    --color-pink: #ff94c8;
+    --color-base-00: #2a3141;
+    --color-base-05: #252b3a;
+    --color-base-10: #222a38;
+    --color-base-20: #262b3b;
+    --color-base-25: #313952;
+    --color-base-30: #1d232f;
+    --color-base-35: #3b445d;
+    --color-base-40: #515b71;
+    --color-base-50: #5f6980;
+    --color-base-60: #080b17;
+    --color-base-70: #8890a6;
+    --color-base-100: #cdd1df;
+    --glow-color: white;
+}
+/* ====== Half Moon ====== */
+.theme-midnight.theme-dark, .theme-midnight.theme-light {
+    --color-base-05: #2a3141;
+    --color-base-00: #25273a;
+    --color-base-10: #2e3046;
+    --color-base-20: #1d1f2f;
+    --color-base-25: #3a435d;
+    --color-base-30: #1d1f2f;
+    --color-base-35: #3b445d;
+    --color-base-40: #515b71;
+    --color-base-50: #5f6980;
+    --color-base-60: #70778e;
+    --color-base-70: #8890a6;
+    --color-base-100: #cdd1df;
+    --glow-color: rgb(206, 206, 247);
+}
+/* ====== Crescent ====== */
+.theme-crescent.theme-dark, .theme-crescent.theme-light {
+    --color-base-05: #2a3141;
+    --color-base-00: #1b1c2a;
+    --color-base-10: #25273a;
+    --color-base-20: #1d1f2f;
+    --color-base-25: #3a435d;
+    --color-base-30: #1d1f2f;
+    --color-base-35: #3b445d;
+    --color-base-40: #515b71;
+    --color-base-50: #5f6980;
+    --color-base-60: #70778e;
+    --color-base-70: #8890a6;
+    --color-base-100: #cdd1df;
+    --glow-color: rgb(190, 202, 220);
+}
+/* ======= Starless ========= */
+.theme-black.theme-dark, .theme-black.theme-light {
+    --color-base-05: #1a242d;
+    --color-base-00: #14141e;
+    --color-base-10: #1d1f2e;
+    --color-base-20: #161721;
+    --color-base-25: #3a435d;
+    --color-base-30: #0d0d15;
+    --color-base-35: #2f3850;
+    --color-base-40: #424d63;
+    --color-base-50: #4f5971;
+    --color-base-60: #606882;
+    --color-base-70: #737b94;
+    --color-base-100: #b1b7cc;
+    --glow-color: rgb(145, 175, 243);
+}
+
+body {
+    --inline-title-size: 4em;
+    --h1-size: 2em;
+    --h1-font: var(--heading-font);
+    --h2-font: var(--heading-font);
+    --h3-font: var(--heading-font);
+    --h4-font: var(--heading-font);
+    --h5-font: var(--heading-font);
+    --h6-font: var(--heading-font);
+    --inline-title-weight: normal;
+    --h1-weight: 900;
+    --h2-weight: 800;
+    --h3-weight: 700;
+    --h4-weight: 600;
+    --h5-weight: 500;
+    --h6-weight: 400;
+    --radius-s: 20px;
+    --radius-m: 26px;
+    --radius-l: 30px;
+    --radius-xl: 45px;
+    --glow-effect-s: 0px 0px 20px rgba(255, 255, 255, 0.535) , 0px 0px 5px rgba(93, 182, 255, 0.586) ;
+    --glow-effect-m: 0px 0px 30px rgb(255, 255, 255) , 0px 0px 10px rgba(93, 182, 255, 0.577) ;
+}
+
+/*Sombra y título*/
+.inline-title, [data-heading], .cm-header {
+   
+    color: #2FB7BC !important;
+    text-shadow: 0px 0px 30px rgba(59, 111, 113, 0.9) , 0px 0px 10px rgba(255, 182, 255, 0.316) ;
+}
+.active-sentence {
+    text-shadow: 0px 0px 30px rgb(255, 255, 255) , 0px 0px 10px rgba(93, 182, 255, 0.577) ;
+    color: var(--glow-color);
+}
+.inline-title {
+    letter-spacing: 5px !important;
+}
+
+/* ======== Callouts ======== */
+body {
+ --callout-title-color: var(--glow-color);
+ --callout-blend-mode: normal;
+ --callout-radius: 2em;
+}
+.callout {
+    background-color: var(--background-primary-alt);
+    border: 1px solid rgba(74, 78, 98, 0.986);
+    padding-left: 25px;
+}
+.callout-title, .calllout-icon, .callout-title-inner {
+    display: block;
+} 
+.callout-icon svg {
+    width: 32px;
+    height: 32px;
+    stroke-width: 1px;
+    color: var(--glow-color) !important;
+    text-shadow: var(--glow-effect-m);
+} .callout-icon {
+    margin: auto;
+    margin-right: 0.8em;
+    padding: 0;  
+    float: left;
+}
+.callout-fold {
+display: none;
+}
+.callout.is-collapsible .callout-title-inner::before {
+    content: "-";
+    margin-right: 5px;
+}
+.callout.is-collapsible.is-collapsed .callout-title-inner::before {
+    content: "+";
+}
+.callout.is-collapsible.is-collapsed .callout-title-inner {
+    color: var(--text-muted);
+}
+
+/* ==== lists ==== */
+body {
+    --checkbox-color-hover: vaR(--text-normal);
+    --checkbox-color: var(--glow-color);
+    --checkbox-marker-color: transparent;
+    --checkbox-size: calc(var(--font-text-size) + 4px);
+    --checklist-done-decoration: none;
+    --checklist-done-color: var(--glow-color);
+    --list-marker-color: var(--glow-color);
+    --list-marker-color-hover: var(--glow-color);
+    --list-bullet-size: 0.25em;
+}
+.task-list-item.is-checked input {
+    box-shadow: var(--glow-effect-m);
+}
+.task-list-item.is-checked:hover input {
+    box-shadow: var(--glow-effect-s);
+}
+.task-list-item:not(.is-checked) input {
+    box-shadow: 0 0 2px var(--glow-color) inset;
+    bordeR: none;
+    background-color: var(--background-secondary);
+}
+.task-list-item:not(.is-checked):hover input {
+box-shadow: 0 0 2px var(--glow-color) inset, var(--glow-effect-m) inset;
+}
+.task-list-item.is-checked {
+    text-shadow: var(--glow-effect-s);
+}
+.task-list-item:not(.is-checked) {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* ===== links ===== */
+
+body {
+    --link-decoration-color-active: hsla(var(--interactive-accent-hsl), 0.5);
+    }
+
+    /* fade out links with aliases */
+    .cm-link-has-alias,
+    .cm-hmd-internal-link.cm-link-alias-pipe {
+        color: var(--text-faint) !important;
+        text-shadow: none !important;
+    }
+    
+    /* ==== dark mode active line glow effect ==== */
+    /* links on active line */
+ body:not(:has(.active-sentence)) .cm-active .cm-hmd-internal-link, /* active cm-line when active sentence highlight plugin is not installed */
+     .cm-hmd-internal-link:has(.active-sentence), /* active sentence for when plugin is installed */
+    .cm-hmd-internal-link:hover,
+    .cm-hmd-barelink,
+   .cm-hmd-internal-link, 
+   .cm-link,
+   .internal-link,
+   .external-link {
+        --link-color: var(--glow-color) !important;
+        text-shadow: var(--glow-effect-s);
+        text-decoration: underline var(--link-decoration-color-active) solid var(--link-decoration-thickness) !important;
+        opacity: 1;
+        transition: 0.25s;
+    }
+    .internal-link:hover, .external-link:hover {
+        text-shadow: var(--glow-effect-m);
+    }
+    body:not(:has(.active-sentence)) .cm-active .cm-underline,
+   .cm-hmd-internal-link:has(.active-sentence) .cm-underline,
+    .cm-hmd-internal-link .cm-underline {
+        color: var(--glow-color) !important;
+    }
+
+    /* ======= properties ====== */
+.metadata-container:not(.is-collapsed) {
+    background-color: var(--background-secondary);
+    padding: var(--size-4-2);
+    border-radius: 20px;
+    border-left: 2px solid var(--glow-color);
+}
+
+/* ========== blockquotes ============ */
+/*
+body {
+    --blockquote-font-style: italic;
+    --blockquote-color: var(--glow-color);
+    --blockquote-border-color: var(--text-muted);
+    --blockquote-background-color: var(--background-secondary);
+}
+blockquote, .HyperMD-quote {
+    margin: 1.8em auto !important;
+    border-radius: 2em;
+    padding: 1em 1.5em 1em 2em !important;
+    border-left: var(--blockquote-border-color) var(--blockquote-border-thickness) solid;
+    font-weight: 300;
+    text-align: justify;
+    background-color: var(--blockquote-background-color);
+}
+.HyperMD-quote::before {
+    display: none !important;
+}*/
+
+/* ==== Tags ==== */
+body {
+    --tag-border-width: 0.5px;
+    --tag-radius: 1em;
+    --tag-weight: 300;
+}
+
+/* === images === */
+img {
+    filter: brightness(90%);
+    border-radius: var(--radius-s);
+}
+
+/* === divider (horizontal rule) === */
+[data-type=markdown] .view-content hr::before {
+    font-size: 1.5em;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: white;
+    background-color: var(--background-primary);
+    z-index: 1;
+    text-shadow: var(--glow-effect-s);
+    visibility: visible;
+}
+
+
+/* @settings
+
+name: Celestial Night
+id: celestial-night-theme
+settings:
+    -
+        id: colors-heading
+        title: Colors
+        type: class-select
+        default: default
+        options: 
+            -   
+                label: Moonlight
+                value: default
+            -
+                label: Half-moon
+                value: theme-midnight
+            -
+                label: Crescent
+                value: theme-crescent
+            -
+                label: Starless
+                value: theme-black
+    -
+        id: font-text-theme
+        title: Main (Body) Font
+        type: variable-select
+        default: var(--font-serif)
+        options:
+            -
+                label: Serif
+                value: var(--font-serif)
+            -
+                label: Sans
+                value: var(--font-sans)
+            -
+                label: Cursive
+                value: var(--font-cursive)
+    -
+        id: heading-font
+        title: Heading Font
+        type: variable-select
+        default: var(--font-cursive)
+        options:
+            -
+                label: Serif
+                value: var(--font-serif)
+            -
+                label: Sans
+                value: var(--font-sans)
+            -
+                label: Cursive
+                value: var(--font-cursive)
+
+
+*/

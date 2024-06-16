@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "ca6026b6f72b4ff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b5dbfc812126266",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3d56b302424a19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersec Vault/Commands/Linux Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f7950482575dfd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "689773c6d1d4d0cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b0ac6ab5a7aaa75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89eac8702834a95a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:sql",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db95724b3479854c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "8aa7ccc8b3213e32",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.5
+  },
+  "right": {
+    "id": "6f25b874ace007eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c59a7ed63696bf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff8b6db42d49efee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cybersec Vault/Commands/Linux Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "292b78b2369ff572",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cybersec Vault/Commands/Linux Commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd13acce085fd693",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "929c16f8d7b149f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cybersec Vault/Commands/Linux Commands.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "8aa7ccc8b3213e32",
+  "lastOpenFiles": [
+    "Encrypted Vault/aaaaa.txt",
+    "Encrypted Vault/Intelligence.md",
+    "Encrypted Vault/Things to do.md",
+    "Encrypted Vault/Database.kdbx",
+    "Encrypted Vault/2ea5ca9e7aedfac37e91f01ac6328ff1046ea802ad9218b74a5a23b177e260f94cdc6e7e13fce59a6e4359f20af7df4c.obsencrypt",
+    "Encrypted Vault/59c79ec67701fdd72b0102396ddbc5f731cb90dabbff973092a699b224da63f56335208395d48b343c26eecda61c5e1b.obsencrypt",
+    "Encrypted Vault/0383a4136db50b84f593ded622887225f65c91f3c3fca3e6609161a1eed02d6661c111d64cd220701626d5c977ae2b6e.obsencrypt",
+    "Encrypted Vault/c72607c265a950d785182a5941ff031318dce41636409e9fb123e0d13edbc4a3ed99b7ac4b0cd48571be564852871ee7.obsencrypt",
+    "Encrypted Vault/Nuevo documento de texto.txt",
+    "Encrypted Vault/1d7b6508ef5426d20b36e2f300cca07f0432f6a1c2460c62f79bd8fdcc3a6ef88db93d57a03004adf1739fc89085ee09.obsencrypt",
+    "Encrypted Vault/f8e32695c9642e933d93466a6e8b8c98b4c13859880c3a2e1fbdfc0a43d0e58a2bfb131fd32207d18027d735d36bb29e.obsencrypt",
+    "Encrypted Vault/61d53c6b59e6242445d88381c37641428d8f47afc2733f56f8f2ce4e46120fd528988223ef67222cc2ea4ac731bd85b8.obsencrypt",
+    "Things to do.md",
+    "Cybersec Vault/Commands/Linux Commands.md",
+    "Diagrama peticiones.md",
+    "ImageSources/Pasted image 20240615202410.png",
+    "Cybersec Vault/Hacking/Techniques/Shellshock.md",
+    "Cybersec Vault/Hacking/Techniques/Web/XPath Injection.md",
+    "ImageSources/Pasted image 20240615230217.png",
+    "Cybersec Vault/Hacking/Techniques/Web/SqlInjection (SQLi).md",
+    "Cybersec Vault/Hacking/Techniques/LDAP Injection.md",
+    "Cybersec Vault/Hacking/Tools/Web/WFuzz.md",
+    "Cybersec Vault/Hacking/Techniques/Web/NoSQLi (No SQL Injection).md",
+    "Cybersec Vault/Hacking/Resources/Concepts/Squid Proxy.md",
+    "Cybersec Vault/Hacking/Resources/Concepts/Open Systems Interconnection (OSI Model).md",
+    "Cybersec Vault/Hacking/Techniques/Web/Broken Object Level Autorization (BOLA).md",
+    "Cybersec Vault/Hacking/Resources/Concepts/Web Distributed Authoring and Versioning (WebDAV).md",
+    "Cybersec Vault/Hacking/Tools/Web/DavTest.md",
+    "Cybersec Vault/Commands/SystemCtl Linux.md",
+    "ImageSources/Pasted image 20240613223328.png",
+    "ImageSources/Pasted image 20240613222556.png",
+    "Cybersec Vault/Hacking/Active-Directory/Lightweight Directory Access Protocol (LDAP).md",
+    "Cybersec Vault/Hacking/Techniques/Web/Open Redirect.md",
+    "Cybersec Vault/Hacking/Tools/Security/VPN.md",
+    "Cybersec Vault/Hacking/Tools/Wireless and Networking/Aircrack.md",
+    "Cybersec Vault/Hacking/Techniques/Web/Xml-External-Entity XXE.md",
+    "Cybersec Vault/Hacking/Techniques/WPS Attack.md",
+    "Cybersec Vault/Hacking/Tools/Web/Wordpress.md",
+    "Cybersec Vault/Hacking/Resources/Concepts/GSM System.md",
+    "ImageSources/Pasted image 20240613192331.png",
+    "ImageSources/Pasted image 20240613194558.png",
+    "ImageSources/Pasted image 20240613183941.png",
+    "ImageSources/Pasted image 20240613183744.png",
+    "ImageSources/Pasted image 20240613183235.png",
+    "ImageSources/Pasted image 20240611141034.png"
+  ]
+}
