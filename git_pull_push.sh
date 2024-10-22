@@ -1,5 +1,5 @@
 #!/bin/bash
-
+python3 crypter.py encrypt
 git status
 git pull
 git add .
